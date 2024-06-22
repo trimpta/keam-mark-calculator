@@ -13,7 +13,6 @@ with open("response.txt") as rizz:
 
     gyatt =  "".join(gyatt)
 
-
     ohio = []
 
     for i in re.findall(r'[ABCDE]|NA', gyatt):
@@ -22,8 +21,13 @@ with open("response.txt") as rizz:
 
 sc = 0
 
+
 sigmarizz = input("Exam on (5/6/7/8/9) :")
 skibidi = int(input("Enter Physics + Chemistry + Maths mark out of 300 :"))
+
+
+if len(ohio) != len(keys[sigmarizz]):
+    raise InterruptedError(f"Error. Try again, {len(ohio)} != {len(keys[sigmarizz])}")
 
 for i, j in zip(ohio, keys[sigmarizz]):
 
