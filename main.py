@@ -41,4 +41,4 @@ for i, j in zip(ohio, keys[sigmarizz]):
 
 print(f"{150 - len(keys[sigmarizz])} Questions Cancelled.")
 print(f"{sc} marks out of {len(keys[sigmarizz])*4} in keam")
-print(f"total marks: {(sc + skibidi)/2} out of {(300 + len(keys[sigmarizz])*2)}")
+print(f"total marks: {sc/2 + skibidi} out of {(300 + len(keys[sigmarizz])*2)}")
